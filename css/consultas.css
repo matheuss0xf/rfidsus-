@@ -1,0 +1,117 @@
+body{
+    background-color: #B5CEED;
+}
+.texto-consultas h1{
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.consultas-marcadas{
+    background-color: white;
+    padding: 30px;
+}
+.titulo-consultas{
+    padding: 20px 10px;
+    background-color: #E8E2E2;
+}
+.consultas-marcadas h3{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.consultas-marcadas p{
+    font-size: 1em;
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.svg-foto{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 200px;
+}
+textarea{
+    background-image: url("/img/linhas.png");
+    font-size:21px;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+textarea:focus{
+    outline: none;
+    border: 1px solid #16578b;
+}
+
+table{
+    width: 100%;
+    background-color: #B5CEED;
+    color: #464444;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #6d6d6d;
+}
+
+td, th{
+    border: 1px solid #6d6d6d !important;
+    padding: 5px;
+}
+
+button{
+    margin-top: 10px;
+    font-weight: 500;
+    background-color: #C4C4C4;
+    color: #1d1d1d;
+    padding: 5px 20px;
+    border:none;
+    border-bottom: 4px solid #9c9c9c;
+}
+
+form{
+    margin-top: 10px;
+    background-color:#fdfdfd;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding:25px 0px 25px 0px;
+    
+}
+
+label{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: rgb(43, 43, 43);
+}
+
+form input[type=text], form input[type=date], form select{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input[type=text]:focus, form input[type=date]{
+    outline: none;
+}
+
+input[type=submit]{
+    margin-top: 15px;
+    background: #EAEAEA;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 60px;
+    color: #4D93FD;
+    font-weight: 600;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+body{
+    background-color: #B5CEED;
+}
+
+.texto-dados h1{
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.svg-foto{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.conteudo-form{
+    z-index: 0;
+    text-align: -webkit-center;
+}
+
+.conteudo-form h3{
+    font-size: 1.6em;
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.conteudo-form  form{
+    margin-top: 10px;
+    background-color:#fdfdfd;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding:25px 0px 25px 0px;
+    
+}
+
+.conteudo-form label{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: rgb(43, 43, 43);
+}
+
+.conteudo-form  form input[type=text], form input[type=date]{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.conteudo-form input[type=text]:focus, form input[type=date]{
+    outline: none;
+}
+
+.logo-rodape{
+    margin: 20px 0;
+}

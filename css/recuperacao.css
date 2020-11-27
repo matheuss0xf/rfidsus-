@@ -1,0 +1,103 @@
+.conteudo-form{
+    z-index: 0;
+}
+
+.conteudo-form  form{
+    margin-top: 30px;
+    background-color:#8AA2F9;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 530px;
+    text-align: center;
+    padding:20px 0px 20px 0px;
+    
+}
+
+.conteudo-form p{
+    color: white;
+    font-size: 1.4em;
+}
+
+.conteudo-form label{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: white;
+}
+
+.conteudo-form  form input[type=text]{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 6px;
+    border: none;
+}
+
+.conteudo-form input[type=text]:focus, .conteudo-form input[type=submit]:focus{
+    outline: none;
+}
+.conteudo-form input[type=text]:focus{
+    border: 2px solid#a1b8b9;
+}
+
+.conteudo-form p a{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: white;
+}
+.conteudo-form input[type=submit]{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: #EAEAEA;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 80px;
+    color: #8AA2F9;
+    font-weight: 600;
+}
+
+.texto-recuperacao h1{
+    font-size: 2em;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.conteudo-texto h2{
+    font-size: 1.8em;
+    width: 100%;
+    margin-top: 60px;
+    font-weight: 200;
+}
+
+.svg-{
+    width: 120%;
+    position: absolute;
+    bottom: 0;
+    left:-10px;
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+    .texto-recuperacao h1{
+        font-size: 1.5em;
+    }
+    .conteudo-texto h2{
+        font-size: 1.3em;
+        margin-top: 20px;
+        font-weight: 300;
+        /* text-align: center; */
+    }
+    .conteudo-form input[type=submit]{
+        padding: 15px 50px;
+    }
+    .svg-mobile{
+        z-index: 2;
+        position: relative;
+        top: -60px;
+    }
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: #D5E2F6;
+}
+.menu{
+    padding: 40px;
+    background-color: #8AA2F9;
+}
+
+.menu h1{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.menu-help p a{
+    background-color: #F0ECEC;
+    text-align: center;
+    padding: 2px 12px;
+    color: #524F4F;
+}
+
+.menu-topicos{
+    margin-top: 30px;
+    text-align: -webkit-center;
+    padding: 30px;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
+.menu-topicos h3{
+    padding: 26px;
+    width: 150px;
+    height: 150px;
+    background-color: #d8d0d0;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 80px;
+    font-weight: 300;
+}
+.menu-topicos p{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.menu-topicos a{
+    text-decoration: none;
+    color: #464444;
+}
+.svg-mulher{
+    position: relative;
+    bottom: 0;
+    right:50px;
+}
+.svg-logo{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+
+.rodape{
+    padding: 24px;
+    background-color: #F0ECEC;
+}

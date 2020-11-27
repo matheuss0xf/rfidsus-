@@ -1,0 +1,99 @@
+.conteudo-form{
+    z-index: 1;
+}
+
+.conteudo-form  form{
+    margin-top: 30px;
+    background-color: #4D93FD;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 530px;
+    text-align: center;
+    padding:20px 0px 40px 0px;
+    
+}
+
+.conteudo-form p{
+    color: white;
+    font-size: 1.4em;
+}
+
+.conteudo-form label{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: white;
+}
+
+.conteudo-form  form input[type=password], input[type=text]{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 6px;
+    border: none;
+}
+
+.conteudo-form input[type=text]:focus,.conteudo-form input[type=password]:focus, .conteudo-form input[type=submit]:focus{
+    outline: none;
+}
+.conteudo-form input[type=text]:focus, .conteudo-form input[type=password]:focus{
+    border: 2px solid#a1b8b9;
+}
+
+.conteudo-form p a{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10%;
+    color: white;
+}
+.conteudo-form input[type=submit]{
+    background: #EAEAEA;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 80px;
+    color: #4D93FD;
+    font-weight: 600;
+}
+
+.botao-fake{
+    background: #EAEAEA;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 80px;
+    color: #4D93FD;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+
+.conteudo-texto h1{
+    font-size: 1.8em;
+    width: 100%;
+    margin-top: 60px;
+    font-weight: 200;
+    text-align: right;
+}
+
+.conteudo-texto span{
+    background-color:  #4D93FD;
+    color: white;
+}
+
+.svg-{
+    width: 120%;
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    margin-left: -50px;
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+    .conteudo-form input[type=submit]{
+        padding: 15px 50px;
+    }
+}
