@@ -69,6 +69,19 @@ button{
     border-bottom: 4px solid #9c9c9c;
 }
 
+
+a.botao{
+    margin-top: 10px;
+    font-weight: 500;
+    background-color: #4ea04e;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 2px;
+    border:none;
+    text-decoration: none;
+    /* border-bottom: 4px solid #9c9c9c; */
+}
+
 form{
     margin-top: 10px;
     background-color:#fdfdfd;
